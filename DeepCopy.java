@@ -63,7 +63,7 @@ public class DeepCopy {
 		
 		try {
 			cpy = (PersonalInfo)per.clone();
-			per.ChangeInfo("정재환", 37, "MicroSoft", "CTO");
+			per.ChangeInfo("홍길동", 30, "MicroSoft", "CTO");
 			cpy.showPersonalInfo();
 			System.out.println("-----------------");
 			per.showPersonalInfo();
